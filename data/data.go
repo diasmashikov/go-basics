@@ -9,8 +9,17 @@ import (
 
 
 func main() {
-	sum(10, 30, 24)
+	
 }
+
+func makeSequence() func() int {
+	i:=1
+	return func() int {
+	   i+=2
+	   return i
+	}
+ }
+ 
 
 func sum(numbers ...int) {
 	total := 0

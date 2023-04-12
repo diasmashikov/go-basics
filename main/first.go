@@ -12,10 +12,13 @@ import (
 
 var president = "Tokaev"
 
-func main() {
-	src := "main/random-file.txt" 
-	dst := "main/sharrrup-guys.txt"
-	os.Rename(src, dst)
+
+type Abser interface {
+	Abs() float64
+}
+
+func interacesInGo() {
+
 }
 
 func writeToFile() {
