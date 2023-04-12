@@ -13,10 +13,6 @@ import (
 var president = "Tokaev"
 
 
-type Abser interface {
-	Abs() float64
-}
-
 func interacesInGo() {
 
 }
