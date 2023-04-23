@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-var president = "TokaevPresidentKz"
+var president = "TokaevPresidentKzAstana"
 
 
 func interacesInGo() {
